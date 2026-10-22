@@ -1,0 +1,82 @@
+/* Configuración de Hoja de Estilos Propia - Súper Juárez Directo */
+
+/* Modelo de Caja Global */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #2c3e50;
+    padding-top: 60px;
+}
+
+/* Secciones con Márgenes y Rellenos */
+section {
+    padding: 15px 0;
+}
+
+/* Encabezados y Colores */
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+
+/* Estilos de la Barra de Navegación */
+.navbar {
+    border-bottom: 3px solid #1e7e34;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+}
+
+/* Estilos de Tarjetas (Cards) */
+.card {
+    border-radius: 12px;
+    background-color: #ffffff;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1) !important;
+}
+
+/* Modelo de Caja en Formularios e Inputs */
+.form-control {
+    padding: 10px 14px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+}
+
+/* Selectores y Pseudo-clases (:focus, :hover) */
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25);
+}
+
+textarea {
+    resize: none;
+}
+
+/* Botón Verde Personalizado */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    padding: 10px 20px;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Listas y Tablas */
+.list-group-item {
+    font-size: 0.95rem;
+}
+
+.table th {
+    font-weight: 600;
+}
